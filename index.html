@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intelli rail</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    div class="moodboard-container">
+        <!-- Panel 1: Control Room Vision -->
+        <div class="panel panel-1">
+            <div class="panel-title">Control Room Vision</div>
+            <div class="control-room">
+                <div class="controller-figure"></div>
+                <div class="holographic-screen">
+                    <div class="network-grid"></div>
+                    <div class="rail-path"></div>
+                    <div class="rail-path"></div>
+                    <div class="rail-path"></div>
+                    <div class="moving-train" style="top: 26px;"></div>
+                    <div class="moving-train" style="top: 56px; animation-delay: -2s;"></div>
+                    <div class="moving-train" style="top: 86px; animation-delay: -1s;"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Panel 2: AI Recommendations Interface -->
+        <div class="panel panel-2">
+            <div class="panel-title">AI Recommendations Interface</div>
+            <div class="interface-screen">
+                <div class="junction-diagram">
+                    <div class="track-line track-green"></div>
+                    <div class="track-line track-red"></div>
+                </div>
+                <div class="ai-recommendation">
+                    <div class="recommendation-title">AI PRIORITY RECOMMENDATION</div>
+                    <div class="recommendation-text">
+                        <div class="priority-line">✓ Express Train A (Green Line) - PROCEED</div>
+                        <div class="hold-line">⏸ Freight Train B (Red Line) - HOLD 3 min</div>
+                        <div style="margin-top: 8px; color: #10b981; font-size: 12px; font-weight: 600;">
+                            Optimal flow efficiency: +12%
+                        </div>
+                    </div>
+                </div>
+                <div class="action-row">
+                    <button class="action-btn">Apply Recommendation</button>
+                    <button class="action-btn secondary">Manual Override</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Panel 3: Performance Dashboard -->
+        <div class="panel panel-3">
+            <div class="panel-title">Performance Dashboard</div>
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="metric-label">On-Time Performance</div>
+                    <div class="metric-value">97.5%</div>
+                    <div class="metric-trend">+2.3% vs last month</div>
+                    <div class="metric-bar">
+                        <div class="bar-fill" style="--fill-width: 97.5%; width: 97.5%;"></div>
+                    </div>
+                </div>
+                <div class="metric-card delay">
+                    <div class="metric-label">Average Delay</div>
+                    <div class="metric-value">-5 min</div>
+                    <div class="metric-trend">-8 min improvement</div>
+                    <div class="metric-bar">
+                        <div class="bar-fill" style="--fill-width: 85%; width: 85%; background: #f59e0b;"></div>
+                    </div>
+                </div>
+                <div class="metric-card throughput">
+                    <div class="metric-label">Section Throughput</div>
+                    <div class="metric-value">124%</div>
+                    <div class="metric-trend">+18% capacity gain</div>
+                    <div class="metric-bar">
+                        <div class="bar-fill" style="--fill-width: 90%; width: 90%; background: #3b82f6;"></div>
+                    </div>
+                </div>
+                <div class="metric-card utilization">
+                    <div class="metric-label">Network Utilization</div>
+                    <div class="metric-value">89.2%</div>
+                    <div class="metric-trend">+5.4% optimization</div>
+                    <div class="metric-bar">
+                        <div class="bar-fill" style="--fill-width: 80%; width: 80%; background: #8b5cf6;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Panel 4: What-If Scenarios -->
+        <div class="panel panel-4">
+            <div class="panel-title">Scenario Analysis</div>
+            <div class="scenario-viewer">
+                <div class="scenario-header">Route Optimization Comparison</div>
+                <div class="scenario-legend">
+                    <div class="legend-item">
+                        <div class="legend-dot" style="background: #374151;"></div>
+                        <span>Original Schedule</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-dot" style="background: #f59e0b;"></div>
+                        <span>Bypass Route</span>
+                        <span class="savings-badge">-8 min</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-dot" style="background: #8b5cf6;"></div>
+                        <span>Hold at Siding</span>
+                        <span class="savings-badge">-3 min</span>
+                    </div>
+                </div>
+                <div class="timeline-container">
+                    <div class="time-axis"></div>
+                    <div class="scenario-path path-original" style="--path-width: 75%;"></div>
+                    <div class="scenario-path path-scenario-a" style="--path-width: 65%;"></div>
+                    <div class="scenario-path path-scenario-b" style="--path-width: 70%;"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Panel 5: System Integration -->
+        <div class="panel panel-5">
+            <div class="panel-title">System Integration</div>
+            <div class="integration-hub">
+                <div class="central-node">
+                    SECURE<br>API HUB
+                </div>
+                <div class="system-node node-1">
+                    SIGNALING<br>SYSTEMS
+                </div>
+                <div class="system-node node-2">
+                    TRAFFIC<br>MGMT
+                </div>
+                <div class="system-node node-3">
+                    ROLLING<br>STOCK
+                </div>
+                <div class="system-node node-4">
+                    TIME<br>TABLES
+                </div>
+            </div>
+        </div>
+
+        <!-- Panel 6: Audit & Continuous Improvement -->
+        <div class="panel panel-6">
+            <div class="panel-title">Audit & Continuous Improvement</div>
+            <div class="audit-layout">
+                <div class="audit-section">
+                    <div class="section-header">Recent Activity Log</div>
+                    <div class="log-item">
+                        <div class="log-time">09:42:15</div>
+                        <div class="log-action">Route optimization applied</div>
+                        <div class="log-type ai">AI</div>
+                    </div>
+                    <div class="log-item">
+                        <div class="log-time">09:38:23</div>
+                        <div class="log-action">Manual hold initiated</div>
+                        <div class="log-type manual">MANUAL</div>
+                    </div>
+                    <div class="log-item">
+                        <div class="log-time">09:35:01</div>
+                        <div class="log-action">Priority reassignment</div>
+                        <div class="log-type ai">AI</div>
+                    </div>
+                    <div class="log-item">
+                        <div class="log-time">09:31:45</div>
+                        <div class="log-action">Delay prediction alert</div>
+                        <div class="log-type ai">AI</div>
+                    </div>
+                </div>
+                <div class="audit-section">
+                    <div class="section-header">Performance Trend</div>
+                    <div class="improvement-chart">
+                        <div class="chart-line"></div>
+                        <div class="improvement-label">+15% Overall Improvement</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+    
+</body>
+</html>
